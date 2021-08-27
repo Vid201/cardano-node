@@ -483,6 +483,8 @@ module Cardano.Api (
 
     -- *** Traversing the block chain
     foldBlocks,
+    chainSyncClientWithLedgerState,
+    chainSyncClientPipelinedWithLedgerState,
 
     -- *** Errors
     FoldBlocksError(..),
